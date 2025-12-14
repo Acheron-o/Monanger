@@ -219,7 +219,7 @@ public class Main {
             }
 
 
-            rate = connection.getConversionRate(url); // Renamed method for English consistency
+            rate = connection.getConversionRate(url);
 
             convertedValue = value * rate;
 
